@@ -11,8 +11,6 @@ const navSlide = () => {
 
 navSlide();
 
-Set-Cookie: cname=cvalue; SameSite=None; Secure
-
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
 
