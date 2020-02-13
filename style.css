@@ -85,18 +85,17 @@ body{
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
-
-
 #i1, #i2, #i3, #i4, #i5{ display: none;}
 
 .slide-container{
 		margin: 0 auto;
-		margin-top: 10px;
+		margin-top: 25px;
 		position: relative;
-		width: 70%;
+		width: 65%;
 		height: 0;
-		padding-bottom: 35%;
+    border: 5px solid black;
+    border-width: thin;
+		padding-bottom: 30%;
 	  user-select: none;
 		background-color: #1c1c1c;
 	}
@@ -212,6 +211,9 @@ body{
 	.slide-container{
 		width: 100%;
 		height: 0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
 		padding-bottom: 55%;
     margin: 0;
 	}
@@ -225,4 +227,27 @@ body{
 	}
   .next span{right:5px;}
   .prev span{left:5px;}
+}
+
+.about-container{
+  background-color: rgb(221, 221, 221);
+  margin: 25px auto;
+  border: 1px solid black;
+  width: 90%;
+  justify-content: center;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1{
+  font-family: 'PT Serif', serif;
+  letter-spacing: 5px;
+  font-size: 48px;
+}
+p{
+  font-family: 'Dosis', sans-serif;
+  font-size: 24px;
+  padding: 30px 120px 30px;
 }
