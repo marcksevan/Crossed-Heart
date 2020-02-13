@@ -89,11 +89,12 @@ body{
 
 .slide-container{
 		margin: 0 auto;
-		margin-top: 25px;
+		margin-top: 0px;
 		position: relative;
 		width: 65%;
 		height: 0;
     border: 5px solid black;
+    border-top: 0px;
     border-width: thin;
 		padding-bottom: 30%;
 	  user-select: none;
@@ -216,6 +217,7 @@ body{
     border-right: 0px;
 		padding-bottom: 55%;
     margin: 0;
+   }
 	}
 	label span { font-size: 50pt; }
 	.prev, .next{
@@ -228,15 +230,11 @@ body{
   .next span{right:5px;}
   .prev span{left:5px;}
 }
-
 .about-container{
-  background-color: rgb(221, 221, 221);
-  margin: 25px auto;
-  border: 1px solid black;
-  width: 90%;
-  justify-content: center;
+
 }
 .about-text{
+  background-color: rgb(221, 221, 221);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -250,4 +248,10 @@ p{
   font-family: 'Dosis', sans-serif;
   font-size: 24px;
   padding: 30px 120px 30px;
+  margin: auto;
+}
+@media screen and (max-width: 685px){
+  p{
+    padding: 15px;
+  }
 }
