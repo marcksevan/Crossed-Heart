@@ -95,6 +95,7 @@ body{
 		height: 0;
     border: 5px solid black;
     border-top: 0px;
+    border-bottom: 0px;
     border-width: thin;
 		padding-bottom: 30%;
 	  user-select: none;
@@ -234,6 +235,9 @@ body{
 
 }
 .about-text{
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  border-width: thin;
   background-color: rgb(221, 221, 221);
   display: flex;
   flex-direction: column;
